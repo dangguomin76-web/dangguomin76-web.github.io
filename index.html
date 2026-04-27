@@ -96,6 +96,51 @@
         width: 100%; /* 手机端铺满 */
       }
     }
+
+    /* 反馈区域 */
+    .feedback-section {
+      max-width: 1100px;
+      margin: 0 auto 40px;
+      padding: 20px;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .feedback-title {
+      margin: 0 0 10px;
+      font-size: 1.25rem;
+    }
+
+    .feedback-text {
+      margin: 0 0 16px;
+      color: #555;
+      line-height: 1.6;
+    }
+
+    .contact-button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px 14px;
+      border-radius: 10px;
+      background: #111827;
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+      letter-spacing: 0.2px;
+    }
+
+    .contact-button:hover {
+      background: #0b1220;
+    }
+
+    .contact-email {
+      margin: 10px 0 0;
+      color: #6b7280;
+      font-size: 0.95rem;
+      word-break: break-all;
+    }
   </style>
 </head>
 <body>
@@ -108,13 +153,25 @@
     <div class="app-info">
       <img src="images/logo.png" alt="App1图标" class="app-icon">
       <div class="app-text">
-        <h2>Bubble Touch</h2>
-        <p>ap lightly and watch the bubbles burst! In Bubble Touch, enjoy simple yet addictive gameplay at your fingertips. With vibrant visuals and soothing sounds, you can relax anytime, anywhere, and immerse yourself in a calm and delightful gaming experience.</p>
+        <h2>WalkRush</h2>
+        <p>Turn everyday steps into small wins and a rhythm you’ll enjoy.</p>
       </div>
     </div>
     <div class="app-promo">
       <img src="images/info.png" alt="App1宣传图">
     </div>
+  </div>
+
+  <!-- 反馈区域 -->
+  <div class="feedback-section" aria-label="反馈与联系">
+    <h3 class="feedback-title">Feedback</h3>
+    <p class="feedback-text">
+      If you run into any issues or have suggestions, feel free to reach out. We’ll get back to you as soon as possible.
+    </p>
+    <a class="contact-button" href="mailto:JoelWyatt6697@icloud.com?subject=Website%20Feedback">
+      Contact us
+    </a>
+    <p class="contact-email">Email: JoelWyatt6697@icloud.com</p>
   </div>
 
 </body>
