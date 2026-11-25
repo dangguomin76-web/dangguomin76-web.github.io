@@ -1317,7 +1317,6 @@ pubnative.net, 1018435, RESELLER, d641df8625486a7b
 appnexus.com, 18183, RESELLER, f5ab79cb980f11d1
 smaato.com, 1100060389, RESELLER, 07bcf65f187117b4
 adingo.jp, 34964, RESELLER
-bigo.sg,nw2a87dil8,DIRECT
 bigo.sg, q9hk29ki8d, RESELLER
 triplelift.com, 14819, RESELLER, 6c33edb13117fd86
 triplelift.com, 14819-EB, RESELLER, 6c33edb13117fd86
